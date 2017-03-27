@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.evilnapsis.myapplication3.MainActivity">
+    <item
+        android:id="@+id/new_task_im"
+        android:orderInCategory="100"
+        android:title="Nueva Tarea"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_project"
+        android:orderInCategory="100"
+        android:title="Nuevo Proyecto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/projects"
+        android:orderInCategory="100"
+        android:title="Proyectos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/credits_menu"
+        android:orderInCategory="100"
+        android:title="Creditos"
+        app:showAsAction="never" />
+</menu>
